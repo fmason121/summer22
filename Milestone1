@@ -1,0 +1,108 @@
+<..;@ CARIT</div>
+</div>
+</body>
+</html>
+
+
+[about.html]==========================================================
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CARIT</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="container">
+    <div class="menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html" class="active">About Us</a></li>
+            <li><a href="projects.html">Project</a></li>
+        </ul>
+    </div>
+    <div class="body">
+        
+        <h1>About us</h1>
+        <p>Welcome to the Information Technology Department at Kennesaw State University! As part of the College of Computing and Software Engineering, the IT Department offers an undergraduate Bachelor of Science in IT (BSIT), Bachelor of Applied Science (BASIT - requiring a 2 year AAS degree from one of our Technical College System of GA schools), and the Master of Science in IT (MSIT).  To ensure that our students receive the highest quality education possible, our curriculum incorporates various courses from information technology, and computing and software engineering focusing on meeting the needs of IT users within an organizational and societal context through the selection, creation, application, integration and administration of computing technologies.</p>
+        <h2>Faculty</h2>
+        <div class="card">
+                <img src="img/img1.png" alt="Rebecca Rutherfoord">
+                <p>Position:<br>
+                    Department Chair of IT & Interim Assistant Dean of CCSE<br>
+                    Phone: (470) 578-7399<br>
+                    Email: brutherf@k..3@kennesaw.edu<br>
+                    Location: J 364<br>
+                    
+                    
+                    Research Interests: Social Media Data Analytics, Information Security, Web Information Management, IT Education<br>
+                </p>
+        </div><br>
+        <div class="card">
+                <img src="img/img3.png" alt="Rebecca Rutherfoord">
+                Position:<br>
+                Limited Term Instructor<br>
+                Phone: (470) 578-2795<br>
+                Email: wforsyt2@k..;@ CARIT</div>
+</div>
+</body>
+</html>
+
+[projects.html]==========================================================
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CARIT</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="container">
+    <div class="menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="projects.html" class="active">Project</a></li>
+        </ul>
+    </div>
+    <div class="body">
+        <h1>Projects</h1>
+        <p>Welcome to the Information Technology Department at Kennesaw State University! As part of the College of Computing and Software Engineering, the IT Department offers an undergraduate Bachelor of Science in IT (BSIT), Bachelor of Applied Science (BASIT - requiring a 2 year AAS degree from one of our Technical College System of GA schools), and the Master of Science in IT (MSIT).  To ensure that our students receive the highest quality education possible, our curriculum incorporates various courses from information technology, and computing and software engineering focusing on meeting the needs of IT users within an organizational and societal context through the selection, creation, application, integration and administration of computing technologies.</p>
+        <h2>Latest Projects</h2>
+        <h3>Kennesaw State University</h3>
+        <p>Kennesaw State University's BSIT program is accredited by ABET, which ensures that the program has met high-quality standards as set by the Information Technology profession.</p>
+        <h3>BSIT and MSIT degrees</h3>
+        <p>In addition to the BSIT and MSIT degrees, we offer certificate programs for those interested in taking graduate-level courses, but not obtaining an additional degree.</p>
+    </div>
+    <div class="footer">@ CARIT</div>
+</div>
+</body>
+</html>
+
+[style.css]==========================================================
+
+html,body{padding:0;margin:0;background:#dadada;font-size:1.05rem;font-family:arial}
+.container{display:grid;grid-template-columns:20% auto 20%;}
+.container .body,.container .menu,.container .footer{grid-column-start:2;grid-column-end:3;}
+.container .menu ul{padding:0;margin:0;background:#000;padding:.5rem}
+.container .menu ul li{list-style:none;display:inline-block;}
+.container .menu ul li a{text-decoration:none;display:block;padding:.5rem 1rem;background:#febc11;color:#000;border-radius:3px;transition:all .2s;}
+.container .menu ul li a.active{background:#fff;}
+.container .menu ul li a:hover{opacity:.8;}
+.container .body{min-height:60vh;background:#fff;padding:2rem}
+.container .footer{padding:1rem;background:#febc11;color:#000;text-align:center;}
+.card img{max-width:200px;border-radius:15px;margin-right:15px;float: left;;}
+.card{display:table;width:calc(100% - 2rem);border-radius:10px;border:solid 1px #dadada;padding:1rem;}
+.container .menu{padding-left:200px;background:#000;position:relative;}
+.container .menu:before{content:'';width:170px;height:55px;background:url(/img/logo.png) no-repeat;background-size:contain; position:absolute;left:0;background-position:center;}
+Step-by-Step explanation
+[Instructions]==========================================================
+
+Use the about code and attached images to create the following project structure:
+> index.html
+> about.html
+> projects.html
+> css/style.css
